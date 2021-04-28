@@ -42,11 +42,13 @@ body{
 /* text general */
 
 .btn{
+    display:inline-block;
     text-decoration:none;
     border-radius:40px;
     padding:8px 32px;
     font-size:20px;
     font-weight:500;
+    margin-top: 40px;
 }
 
 .btn-small{
@@ -76,6 +78,12 @@ h2{
     font-size:48px;
     line-height: 57.6px;
     letter-spacing: -0.3px;
+    font-weight:800;
+}
+
+h3{
+    font-size:32px;
+    line-height: 38.4px;
     font-weight:800;
 }
 
@@ -165,9 +173,7 @@ header nav ul li{
     margin-bottom:8px;
 }
 
-.get-container{
-    margin-top:40px;
-}
+/* All buttons */
 
 .btn-download{
     background-color: #fff;
@@ -175,9 +181,14 @@ header nav ul li{
     color: #23272a;
 }
 
-.btn-download i{
+.btn i{
     vertical-align: middle;
     margin-right:8px;
+}
+
+.btn-cta{
+    background-color: #7289da;
+    color: #fff;
 }
 
 .btn-black{
@@ -187,9 +198,7 @@ header nav ul li{
 
 /* btn hover effect */
 
-.btn-download:hover, nav > .btn:hover{
-    color: #7289da;
-
+.btn:hover{
     /* Compatibilità */
     -webkit-box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
     -moz--box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
@@ -198,15 +207,16 @@ header nav ul li{
     box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
 }
 
+.btn-download:hover, nav > .btn:hover{
+    color: #7289da;
+}
+
 .btn-black:hover{
     background-color: #36393f;
+}
 
-    /* Compatibilità */
-    -webkit-box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
-    -moz--box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
-    -o-box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
-
-    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+.btn-cta:hover{
+    background-color: #8ea1e1;
 }
 
 /* main */
@@ -219,13 +229,40 @@ header nav ul li{
     padding-left:10%;
 }
 
-#section-2{
+#section-2, #section-4{
     background-color: #f6f6f6;
     margin: 0;
 }
 
 #section-2 .paragraph-container{
     width:80%;
+}
+
+#section-4{
+    padding-top:80px;
+}
+
+#section-5{
+    padding: 80px 0 140px 0;
+    background-color: #f6f6f6;
+}
+
+#section-5 h3{
+    background: transparent url(../img/stars.svg) scroll no-repeat 50% 0;
+    background-size:50%;
+    padding: 40px 0 0 0;
+}
+
+.paragraph-big{
+    text-align: center;
+    width:80%;
+    margin:auto;
+}
+
+.img-big{
+    width: 100%;
+    margin: auto;
+    display: block;
 }
 
 .wave{
@@ -238,4 +275,8 @@ header nav ul li{
 
 .wave-down{
     transform: rotateX(180deg);
+}
+
+.get-cta{
+    text-align:center;
 }
