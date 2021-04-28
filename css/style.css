@@ -44,8 +44,8 @@ body{
 }
 
 .fmain-col{
-    width:28%;
-    margin-right:4%;
+    width:26%;
+    margin-right:6%;
 }
 
 .fnav-col{
@@ -128,7 +128,7 @@ header{
     background: transparent url(../img/logo.svg) scroll no-repeat center;
 }
 
-/* .main-nav >*/ .logo{
+.logo{
     width:125px;
     height:80px;
     vertical-align: middle;
@@ -149,7 +149,7 @@ header{
     text-decoration:none;
 }
 
-nav ul a:hover{
+.main-nav ul li a:hover{
     text-decoration:underline;
 }
 
@@ -299,6 +299,72 @@ footer{
     padding:100px 0 50px 0;
 }
 
+footer h3{
+    color:#7289da;
+    font-weight:600;
+}
+
+.foot-spacing{
+    margin-top:25px;
+}
+
+.current-lang-flag{
+    display: inline-block;
+    background:transparent url(../img/ita.png) scroll no-repeat center;
+    background-size:cover;
+
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.current-lang{
+    font-size:14px;
+    font-weight:400;
+    color:#fff;
+}
+
+.current-lang i{
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.social-icons i{
+    color:#fff;
+    font-size:24px;
+    margin-right:6%;
+}
+
+.yt i{
+    margin-right:0;
+}
+
+.fnav ul li{
+    list-style:none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:10px;
+}
+
+.fnav ul li a, .fnav ul li a:hover, .fnav ul li a:visited, .fnav ul li a:focus{
+    color:#fff;
+    text-decoration: none;
+}
+
+.fnav ul li a:hover{
+    text-decoration:underline;
+}
+
+.fnav-label{
+    padding-top:8px;
+    color: #7289da;
+    font-weight: 300;
+}
+
+/* Footer lower part */
+
+
 .footer-lower{
     width: 100%;
     height: 100px;
@@ -316,8 +382,4 @@ footer{
 
 .footer-lower > .logo{
     margin-top: 20px;
-}
-
-.fnav ul li{
-    list-style:none;
 }
