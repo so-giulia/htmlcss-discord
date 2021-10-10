@@ -429,6 +429,9 @@ footer h3{
     .jumbo{
         height: 100vh;
     }
+    .hero-container{
+        width: 60%;
+    }
 
     /* Layout */
     .col-max{
@@ -505,6 +508,9 @@ footer h3{
     .get-container{
         width: 70%;
     }
+    .get-cta{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -558,6 +564,15 @@ footer h3{
     }
     .col-min-2 > .paragraph-container{
         padding-top: 0;
+    }
+    #section-1 .paragraph-container,
+    #section-2 .paragraph-container,
+    #section-3 .paragraph-container,
+    #section-4 .paragraph-container{
+        padding: 0;
+    }
+    .get-cta{
+        width: 100%;
     }
 
     /* Footer */
@@ -613,12 +628,6 @@ footer h3{
         font-size: 31px;
         line-height: 1.2;
     }
-    #section-1 .paragraph-container,
-    #section-2 .paragraph-container,
-    #section-3 .paragraph-container,
-    #section-4 .paragraph-container{
-        padding: 0;
-    }
     #section-5 h3 {
         background: transparent url(../img/stars.svg) scroll no-repeat 50% 0;
         background-size: 90%;
@@ -640,7 +649,10 @@ footer h3{
     }
     .btn-small{
         font-size: 16px;
-    } 
+    }
+    .get-cta{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 470px){
